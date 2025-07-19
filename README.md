@@ -78,4 +78,3 @@ Each post includes:
 **Yousef Attar**  
 Built independently as part of the [Scrimba Full Stack Career Path](https://scrimba.com/learn/fullstack).  
 A fully self-coded, accessibility-aware project designed for practice and learning.
-
