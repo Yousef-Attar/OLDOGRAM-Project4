@@ -15,12 +15,12 @@ header{
     padding: 10px;
 }
 header > .logo-img{
-    width: 130px;
+    width: 90px;
 } 
 header > .user-avatar{
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 main{
     overflow-x:hidden ;
@@ -85,28 +85,27 @@ height: 34px;
     font-weight: normal;
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width:750px){
     .post-content{
         display: flex;
         flex-direction: column;
         padding: 20px;
-
     }
   .post-body p {
     font-size: 1.1rem;
   }
 
   .user-text h1 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .user-text h2 {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   .post-content .post-image {
     width: 50%;
     max-height: 500px;
     object-fit: cover;
-    border-radius: 59px;
+    border-radius: 50px;
   }
 }
